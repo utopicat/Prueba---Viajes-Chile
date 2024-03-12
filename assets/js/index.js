@@ -5,3 +5,4 @@ $(document).ready(function () { //citar o convocar al documento//
         alert("El formulario de contacto fue enviado correctamente"); //dar mensaje de alerta con el contenido indicado//
     });
 }); //cierres//
+

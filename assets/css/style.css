@@ -35,7 +35,7 @@ h3 {
     padding-top: 10px;
     padding-bottom: 10px;
 } /*clase icono para favcon. color fondo blanco, que ocupe todo el espacio disponible, fondo del color indicado, al centro del espacio. padding 10 arriba y abajo 
-|| en algun momento funcionó, pero empece a borrar cosas y lo perdi :(   */
+ */
 
 
 .footer {
@@ -52,6 +52,6 @@ i{
     display: inline-block;
 } /*etiqueta i colot vlanco y deben ir bloque en linea*/
 
-.container .pie-pagina .favicon{
+.pie-pagina .favicon{
     display: inline-block; 
 } /*clase container, pie-pagina y favcon pretendian ir en linea*/
