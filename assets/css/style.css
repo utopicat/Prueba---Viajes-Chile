@@ -2,33 +2,30 @@
     padding: 0;
     border: 0;
     margin: 0;
-}
+} /*dejar en cero los margin padding y body de todo el sitio*/
 
 body {
     background-color: #000000;
     color: #ffffff;
-}
+}/*color de fondo y texto. tipo de letra esta definido desde html por google fonts*/
 
-.navbar-expand-lg {
-    padding-left: 10%;
-    padding-right: 10%;
-}
+
 
 main {
     padding-bottom: 50px; 
     margin-right: 10%;
     margin-left: 10% ;
-}
+} /*sccion principal con margen 10% aizquierda y derecha. y relleno al inferior de 50 pixeles*/
 
 h3 {
     text-align: center;
     padding-top: 40px;
     padding-bottom: 20px;
-}
+} /*subtitulos h3 al centro, relleno arriba de 4o y abajo de 20 */
 
 .who .destacados {
     padding: 15px;
-}
+} /*marcador de clase who y destacados con padding o relleno de 15 px*/
 
 -----------------------------pendiente------------------------------
 .dropdown{
@@ -44,7 +41,7 @@ h3 {
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
-}
+} /*clase icono para favcon. color fondo blanco, que ocupe todo el espacio disponible, fondo del color indicado, al centro del espacio. padding 10 arriba y abajo*/
 
 
 .footer {
@@ -53,13 +50,13 @@ h3 {
     font-size: 50px;
     font-weight: 500;
     padding-bottom: 0;
-}
+}/*pie de pagina de tono calipso, texto al centro. tamaño de fuente 50px, peso o grosor de 500, y padding abajo de 0 */
 
 i{
     color: #ffffff;
     display: inline-block;
-}
+} /*etiqueta i colot vlanco y deben ir bloque en linea*/
 
 .container .pie-pagina .favicon{
     display: inline-block; 
-}
+} /*clase container, pie-pagina y favcon pretendian ir en linea*/
