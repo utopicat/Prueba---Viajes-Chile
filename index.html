@@ -31,7 +31,32 @@
 
     <!-- Una barra de navegación fija en la parte superior de la pantalla, con el logo y links a
     diferentes secciones de la página, haciendo un smooth scroll./-->
-
+    <nav class="navbar-expand-lg navbar  navbar-dark bg-dark bg-body-tertiary " data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand"  href=""> <img src="assets/img/viajes.svg" alt="" srcset="" width="25px"> Viajes Chile</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav  mb-2 mb-lg-0 ">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Quienes somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Destacado</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
     <!--Un carousel que muestre las imágenes destacadas del sitio. CARRUSEL PANTALLA COMPLETA/-->
     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
@@ -60,23 +85,48 @@
 
     <!--Una sección de presentación, utilizando favicons y 3 párrafos (debe desaparecer en
     tamaños pequeños de pantalla)./-->
-    <H3>QUIENES SOMOS</H3>
-    <div>
+<main>
+<section class="parrafos d-none d-md-block">
+    <H3 class="who">QUIENES SOMOS</H3>
+    <section class="container ">
+        <div class="row">
+            <div class="col ">
+                <i class="fa-solid fa-plane"></i>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo hic illo debitis qui iure quaerat,
+                    culpa
+                    numquam! Similique itaque eum, ut dignissimos eos commodi excepturi molestiae vero consequatur
+                    consequuntur! Aut!</p>
+            </div>
+            <div class="col">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi, iste at. Obcaecati, tempora
+                    dicta et
+                    adipisci alias fugit eaque officiis in aliquam magni qui ducimus iure praesentium repellendus eius
+                    harum!</p>
+                <i class="fa-solid fa-mountain-sun"></i>
+            </div>
+            <div class="col">
+                <i class="fa-solid fa-route"></i>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia, autem nobis! Deserunt, nesciunt
+                    ipsum?
+                    Obcaecati voluptatum, architecto nemo quas quo blanditiis, hic esse exercitationem minus nisi cumque
+                    vitae molestiae modi!</p>
 
-    </div>
-
+            </div>
+        </div>
+    </section>
+</section>
 
     <!--Una sección de destacados, que muestre 4 cards (tarjetas) con la imagen e
     información asociada./-->
-    <H3>DESTACADOS</H3>
+    <H3 class="destacados">DESTACADOS</H3>
     <div class="row row-cols-1 row-cols-md-4 g-4">
         <div class="col">
             <div class="card text-bg-info mb-3">
                 <img src="assets/img/card1.jpg" class="card-img-top" alt="fotografia torres del paine">
                 <div class="card-body">
                     <h4 class="card-title text-white">Lorem ipsum dolor sit.</h4>
-                    <p class="card-text text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et maxime consequuntur
-                        dolor explicabo accusamus ea delectus impedit, nemo quo blanditiis, quibusdam sunt rerum odio
+                    <p class="card-text text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et maxime
+                        consequuntur dolor explicabo accusamus ea delectus impedit, nemo quo blanditiis, quibusdam sunt rerum odio
                         suscipit earum dolores a vel aperiam.</p>
                 </div>
             </div>
@@ -86,9 +136,9 @@
                 <img src="assets/img/card2.jpg" class="card-img-top" alt="fotogradia paisaje duna reflejada en rio">
                 <div class="card-body">
                     <h4 class="card-title text-white">Consectetur adipisicing elit</h4>
-                    <p class="card-text text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum itaque
-                        aliquam vitae voluptatem autem cumque nemo, quia veniam rerum est facilis officia corrupti
-                        impedit nam amet. Maxime dolore fugiat ducimus.</p>
+                    <p class="card-text text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et maxime
+                        consequuntur dolor explicabo accusamus ea delectus impedit, nemo quo blanditiis, quibusdam sunt rerum odio
+                        suscipit earum dolores a vel aperiam.</p>
                 </div>
             </div>
         </div>
@@ -96,10 +146,10 @@
             <div class="card text-bg-info mb-3">
                 <img src="assets/img/card3.jpg" class="card-img-top" alt="fotografia norte de chile.">
                 <div class="card-body">
-                    <h4 class="card-title text-white"> Sed do eiusmod tempor incidunt  </h4>
-                    <p class="card-text text-white">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum nam autem
-                        esse ullam eligendi suscipit repellat doloremque assumenda ipsam ratione voluptates, molestias,
-                        similique corrupti fugiat corporis, necessitatibus soluta adipisci animi.</p>
+                    <h4 class="card-title text-white"> Sed do eiusmod tempor </h4>
+                    <p class="card-text text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et maxime
+                        consequuntur dolor explicabo accusamus ea delectus impedit, nemo quo blanditiis, quibusdam sunt rerum odio
+                        suscipit earum dolores a vel aperiam.</p>
                 </div>
             </div>
         </div>
@@ -108,9 +158,9 @@
                 <img src="assets/img/card4.jpg" class="card-img-top" alt="fotografia selva sur">
                 <div class="card-body">
                     <h4 class="card-title text-white">Ut enim ad minim</h4>
-                    <p class="card-text text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo quam maxime
-                        repellat, culpa numquam at accusantium ex doloremque nostrum assumenda tenetur nesciunt.
-                        Necessitatibus harum incidunt doloribus ab, adipisci sint natus.</p>
+                    <p class="card-text text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et maxime
+                        consequuntur dolor explicabo accusamus ea delectus impedit, nemo quo blanditiis, quibusdam sunt rerum odio
+                        suscipit earum dolores a vel aperiam.</p>
                 </div>
             </div>
         </div>
@@ -130,11 +180,17 @@
         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
     </div>
     <button type="button" class="btn btn-info">Enviar</button>
-
+</main>
     <!--Una sección footer con links a las redes sociales./-->
 
-    <footer>
-
+    <footer class="footer">
+        <div>
+<h2> VIAJES CHILE</h2></div>
+<div class="favicon">
+<a href="https://github.com"><i class="fa-brands fa-github"></i></a>
+<a href="https://www.linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
+<a href="http://www.twitter.com"><i class="fa-brands fa-square-x-twitter"></i></a>
+<a href="https://www.facebook.com"><i class="fa-brands fa-square-facebook"></i></a></div>
     </footer>
 
 

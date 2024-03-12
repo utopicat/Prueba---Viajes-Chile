@@ -1,12 +1,102 @@
-*{
+* {
     padding: 0;
     border: 0;
     margin: 0;
 }
-body{
+
+body {
     background-color: #000000;
     color: #ffffff;
 }
-h3{
+
+.navbar-expand-lg {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+main {
+    padding-bottom: 50px; 
+    margin-right: 10%;
+    margin-left: 10% ; /* Corrección aquí */
+}
+
+h3 {
     text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.who .destacados {
+    padding: 15px;
+}
+
+* {
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #000000;
+    color: #ffffff;
+    margin-right: 20px;
+    margin-left: 20px; /* Corrección aquí */
+}
+
+main {
+    padding-bottom: 50px;
+}
+
+h3 {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.who .destacados {
+    padding: 15px;
+}
+
+.icon-container {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #0dcaf0; /* Cambia el color de fondo según tu preferencia */
+    width: 100px; /* Ancho del contenedor de icono */
+    height: 100px; /* Alto del contenedor de icono */
+    border-radius: 50%; /* Para hacerlo circular */
+    text-align: center;
+}
+
+.icon-container .i {
+    font-size: 30px; /* Tamaño del icono */
+    color: white; /* Color del icono */
+    text-align: center;
+}
+
+.footer {
+    background-color: #0dcaf0;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+    padding-bottom: 0;
+}
+
+i {
+    color: #ffffff;
+}
+
+
+.footer {
+    background-color: #0dcaf0;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+    padding-bottom: 0;
+}
+
+i {
+    color: #ffffff;
+    
 }
