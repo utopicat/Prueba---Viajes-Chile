@@ -15,12 +15,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
-    <!--/*FONT GOOGLE LOBSTER*/-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Lobster&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-        rel="stylesheet">
+   
     <!--/*FONT AWESOME AQUÍ*/-->
     <script src="https://kit.fontawesome.com/803f349914.js" crossorigin="anonymous"></script>
     <!--/*CSS*/-->
@@ -33,9 +28,11 @@
     diferentes secciones de la página, haciendo un smooth scroll./-->
     <nav class="navbar-expand-lg navbar  navbar-dark bg-dark bg-body-tertiary " data-bs-theme="dark">
         <div class="container-fluid">
-            <a class="navbar-brand"  href=""> <img src="assets/img/viajes.svg" alt="" srcset="" width="25px"> Viajes Chile</a>
+            <a class="navbar-brand" href=""> <img src="assets/img/viajes.svg" alt="" srcset="" width="25px"> Viajes
+                Chile</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -45,13 +42,13 @@
                         <a class="nav-link active" href="#">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="#">Quienes somos</a>
+                        <a class="nav-link active" href="#who">Quienes somos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="#">Destacado</a>
+                        <a class="nav-link active" href="#destacados">Destacado</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="#">Contacto</a>
+                        <a class="nav-link active" href="#contacto">Contacto</a>
                     </li>
                 </ul>
             </div>
@@ -83,117 +80,167 @@
         </button>
     </div>
 
+
+
+    
     <!--Una sección de presentación, utilizando favicons y 3 párrafos (debe desaparecer en
     tamaños pequeños de pantalla)./-->
-<main>
-<section class="parrafos d-none d-md-block">
-    <H3 class="who">QUIENES SOMOS</H3>
-    <section class="container ">
-        <div class="row">
-            <div class="col ">
-                <i class="fa-solid fa-plane"></i>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo hic illo debitis qui iure quaerat,
-                    culpa
-                    numquam! Similique itaque eum, ut dignissimos eos commodi excepturi molestiae vero consequatur
-                    consequuntur! Aut!</p>
-            </div>
-            <div class="col">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi, iste at. Obcaecati, tempora
-                    dicta et
-                    adipisci alias fugit eaque officiis in aliquam magni qui ducimus iure praesentium repellendus eius
-                    harum!</p>
-                <i class="fa-solid fa-mountain-sun"></i>
-            </div>
-            <div class="col">
-                <i class="fa-solid fa-route"></i>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia, autem nobis! Deserunt, nesciunt
-                    ipsum?
-                    Obcaecati voluptatum, architecto nemo quas quo blanditiis, hic esse exercitationem minus nisi cumque
-                    vitae molestiae modi!</p>
+    <main>
+        <section class="parrafos d-none d-md-block">
+            <H3 id="who">QUIENES SOMOS</H3>
+            <section class="container ">
+                <div class="row">
+                    <div class="col ">
+                     <div class="icono">
+                        <i class="fa-solid fa-plane"></i></div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo hic illo debitis qui iure
+                            quaerat,
+                            culpa
+                            numquam! Similique itaque eum, ut dignissimos eos commodi excepturi molestiae vero
+                            consequatur
+                            consequuntur! Aut!</p>
+                    </div>
+                    <div class="col">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi, iste at. Obcaecati,
+                            tempora
+                            dicta et
+                            adipisci alias fugit eaque officiis in aliquam magni qui ducimus iure praesentium
+                            repellendus eius
+                            harum!</p>
+                        <i class="fa-solid fa-mountain-sun"></i>
+                    </div>
+                    <div class="col">
+                        <i class="fa-solid fa-route"></i>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia, autem nobis! Deserunt,
+                            nesciunt
+                            ipsum?
+                            Obcaecati voluptatum, architecto nemo quas quo blanditiis, hic esse exercitationem minus
+                            nisi cumque
+                            vitae molestiae modi!</p>
 
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <!-- INTENTO DE boton dropdown con mapa de chile-->
+
+<!-- <div class="dropdown d-none d-md-block">
+            <div class="container">
+                <div class="row">
+                    <a class=" col btn-info dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false" onclick="toggleMap()">Descubre el mapa</a>
+
+                    <ul class="dropdown-menu">
+                        <li>
+                            <img id="mapImage" src="assets/img/mapa de chile.png" alt="Mapa"
+                                style="display: none; width: 100%;">
+                        </li>
+
+                </div>
             </div>
         </div>
-    </section>
-</section>
+        </div>--> 
 
-    <!--Una sección de destacados, que muestre 4 cards (tarjetas) con la imagen e
+
+      
+        <!--Una sección de destacados, que muestre 4 cards (tarjetas) con la imagen e
     información asociada./-->
-    <H3 class="destacados">DESTACADOS</H3>
-    <div class="row row-cols-1 row-cols-md-4 g-4">
-        <div class="col">
-            <div class="card text-bg-info mb-3">
-                <img src="assets/img/card1.jpg" class="card-img-top" alt="fotografia torres del paine">
-                <div class="card-body">
-                    <h4 class="card-title text-white">Lorem ipsum dolor sit.</h4>
-                    <p class="card-text text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et maxime
-                        consequuntur dolor explicabo accusamus ea delectus impedit, nemo quo blanditiis, quibusdam sunt rerum odio
-                        suscipit earum dolores a vel aperiam.</p>
+        <H3 id="destacados">DESTACADOS</H3>
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+            <div class="col">
+                <div class="card text-bg-info mb-3">
+                    <img src="assets/img/card1.jpg" class="card-img-top" alt="fotografia torres del paine">
+                    <div class="card-body">
+                        <h4 class="card-title text-white">Lorem ipsum dolor sit.</h4>
+                        <p class="card-text text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et
+                            maxime
+                            consequuntur dolor explicabo accusamus ea delectus impedit, nemo quo blanditiis, quibusdam
+                            sunt rerum odio
+                            suscipit earum dolores a vel aperiam.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card text-bg-info mb-3">
+                    <img src="assets/img/card2.jpg" class="card-img-top" alt="fotogradia paisaje duna reflejada en rio">
+                    <div class="card-body">
+                        <h4 class="card-title text-white">Consectetur adipisicing </h4>
+                        <p class="card-text text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et
+                            maxime
+                            consequuntur dolor explicabo accusamus ea delectus impedit, nemo quo blanditiis, quibusdam
+                            sunt rerum odio
+                            suscipit earum dolores a vel aperiam.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card text-bg-info mb-3">
+                    <img src="assets/img/card3.jpg" class="card-img-top" alt="fotografia norte de chile.">
+                    <div class="card-body">
+                        <h4 class="card-title text-white"> Sed do eiusmod tempor </h4>
+                        <p class="card-text text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et
+                            maxime
+                            consequuntur dolor explicabo accusamus ea delectus impedit, nemo quo blanditiis, quibusdam
+                            sunt rerum odio
+                            suscipit earum dolores a vel aperiam.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card text-bg-info mb-3">
+                    <img src="assets/img/card4.jpg" class="card-img-top" alt="fotografia selva sur">
+                    <div class="card-body">
+                        <h4 class="card-title text-white">Ut enim ad minim</h4>
+                        <p class="card-text text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et
+                            maxime
+                            consequuntur dolor explicabo accusamus ea delectus impedit, nemo quo blanditiis, quibusdam
+                            sunt rerum odio
+                            suscipit earum dolores a vel aperiam.</p>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="col">
-            <div class="card text-bg-info mb-3">
-                <img src="assets/img/card2.jpg" class="card-img-top" alt="fotogradia paisaje duna reflejada en rio">
-                <div class="card-body">
-                    <h4 class="card-title text-white">Consectetur adipisicing elit</h4>
-                    <p class="card-text text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et maxime
-                        consequuntur dolor explicabo accusamus ea delectus impedit, nemo quo blanditiis, quibusdam sunt rerum odio
-                        suscipit earum dolores a vel aperiam.</p>
-                </div>
-            </div>
+
+        
+        <!--Una sección de formulario de contacto./-->
+        <h3 id="contacto">CONTACTO</h3>
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
         </div>
-        <div class="col">
-            <div class="card text-bg-info mb-3">
-                <img src="assets/img/card3.jpg" class="card-img-top" alt="fotografia norte de chile.">
-                <div class="card-body">
-                    <h4 class="card-title text-white"> Sed do eiusmod tempor </h4>
-                    <p class="card-text text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et maxime
-                        consequuntur dolor explicabo accusamus ea delectus impedit, nemo quo blanditiis, quibusdam sunt rerum odio
-                        suscipit earum dolores a vel aperiam.</p>
-                </div>
-            </div>
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Asunto</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
         </div>
-        <div class="col">
-            <div class="card text-bg-info mb-3">
-                <img src="assets/img/card4.jpg" class="card-img-top" alt="fotografia selva sur">
-                <div class="card-body">
-                    <h4 class="card-title text-white">Ut enim ad minim</h4>
-                    <p class="card-text text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et maxime
-                        consequuntur dolor explicabo accusamus ea delectus impedit, nemo quo blanditiis, quibusdam sunt rerum odio
-                        suscipit earum dolores a vel aperiam.</p>
-                </div>
-            </div>
+        <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
         </div>
-    </div>
-    <!--Una sección de formulario de contacto./-->
-    <h3>CONTACTO</h3>
-    <div class="mb-3">
-        <label for="exampleFormControlInput1" class="form-label">Nombre</label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
-    </div>
-    <div class="mb-3">
-        <label for="exampleFormControlInput1" class="form-label">Asunto</label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
-    </div>
-    <div class="mb-3">
-        <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-    </div>
-    <button type="button" class="btn btn-info">Enviar</button>
-</main>
+
+        <!--boton con tooltip./-->
+        <button type="button" id="enviar-form" class="btn btn-info enviar-correo"
+            title="Click para enviar formulario de contacto">Enviar</button>
+
+
+
+    </main>
+
     <!--Una sección footer con links a las redes sociales./-->
 
     <footer class="footer">
-        <div>
-<h2> VIAJES CHILE</h2></div>
-<div class="favicon">
-<a href="https://github.com"><i class="fa-brands fa-github"></i></a>
-<a href="https://www.linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
-<a href="http://www.twitter.com"><i class="fa-brands fa-square-x-twitter"></i></a>
-<a href="https://www.facebook.com"><i class="fa-brands fa-square-facebook"></i></a></div>
+        <div class="container">
+            <h2 class="pie-pagina"> VIAJES CHILE</h2>
+            <div class="favicon">
+            <a href="https://github.com" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="http://www.twitter.com" target="_blank"><i class="fa-brands fa-square-x-twitter"></i></a>
+            <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
+            </div>
+        </div>
     </footer>
 
-
+    <!--/*bootstrap 5.2*/-->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
         integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
         crossorigin="anonymous"></script>
