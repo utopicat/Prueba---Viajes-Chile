@@ -27,13 +27,6 @@ h3 {
     padding: 15px;
 } /*marcador de clase who y destacados con padding o relleno de 15 px*/
 
------------------------------pendiente------------------------------
-.dropdown{
-    display: center;
-}
-
------------------------------pendiente------------------------------
-
 .icono {
     color: #ffffff;
     width: 100%;
@@ -41,7 +34,8 @@ h3 {
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
-} /*clase icono para favcon. color fondo blanco, que ocupe todo el espacio disponible, fondo del color indicado, al centro del espacio. padding 10 arriba y abajo*/
+} /*clase icono para favcon. color fondo blanco, que ocupe todo el espacio disponible, fondo del color indicado, al centro del espacio. padding 10 arriba y abajo 
+|| en algun momento funcionó, pero empece a borrar cosas y lo perdi :(   */
 
 
 .footer {
@@ -49,7 +43,8 @@ h3 {
     text-align: center;
     font-size: 50px;
     font-weight: 500;
-    padding-bottom: 0;
+    padding-top: 10px;
+    padding-bottom: 20px;
 }/*pie de pagina de tono calipso, texto al centro. tamaño de fuente 50px, peso o grosor de 500, y padding abajo de 0 */
 
 i{
