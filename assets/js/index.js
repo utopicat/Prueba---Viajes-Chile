@@ -11,3 +11,4 @@ $(document).ready(function () {
         $(".texto").hide(); //la funcion es ocultar texto en los parrafos de clase tecto y mostrar solo favicons
     });
 });
+
