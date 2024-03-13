@@ -6,3 +6,8 @@ $(document).ready(function () { //citar o convocar al documento//
     });
 }); //cierres//
 
+$(document).ready(function () { 
+    $('.icono').dblclick(function () { //al hacer doble click en culuiera de los favicons de clase icono, c viene funcion
+        $(".texto").hide(); //la funcion es ocultar texto en los parrafos de clase tecto y mostrar solo favicons
+    });
+});
